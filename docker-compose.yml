@@ -1,0 +1,8 @@
+version: '3.2'
+services:
+  nest-project:
+    build:
+      context: .
+      dockerfile: 'Dockerfile'
+    ports:
+      - '3032:3000'
